@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
 import MainPage from './components/MainPage'
-import About from './components/About.jsx'
 import PaymentPlanCard from './components/PaymentPlan.jsx'
 import Images from './components/Images.jsx'
 import Features from './components/Features.jsx'
@@ -20,10 +19,6 @@ const App = () => {
         <MainPage />
       </section>
       
-      {/* About Section */}
-      <section id="about" className="py-16">
-        <About />
-      </section>
       
       {/* Payment Plan Section */}
       <section id="payment-plan" className="py-16 bg-gray-100">
